@@ -7,27 +7,27 @@ export default function NewUser() {
         <form className="newUserForm">
             <div className="newUserItem">
                 <label>Username</label>
-                <input type="text" placeholder='john2465' />
+                <input type="text" placeholder='Username' />
             </div>
             <div className="newUserItem">
                 <label>Full Name</label>
-                <input type="text" placeholder='John Tomson' />
+                <input type="text" placeholder='Full Name' />
             </div>
             <div className="newUserItem">
                 <label>Password</label>
-                <input type="password" placeholder='password' />
+                <input type="password" placeholder='Password' />
             </div>
             <div className="newUserItem">
                 <label>Phone No.</label>
-                <input type="text" placeholder='+61 232 2324' />
+                <input type="text" placeholder='Phone No.' />
             </div>
             <div className="newUserItem">
                 <label>Email</label>
-                <input type="email" placeholder='john24@gmail.com' />
+                <input type="email" placeholder='Email' />
             </div>
             <div className="newUserItem">
                 <label>Address</label>
-                <input type="text" placeholder='Nowra | NSW' />
+                <input type="text" placeholder='Address' />
             </div>
             <div className="newUserItem">
                 <label>Gender</label>
@@ -46,6 +46,12 @@ export default function NewUser() {
                     <option value="yes">Yes</option>
                     <option value="no">No</option>
                 </select>
+            </div>
+            <div className= "newUserItem">
+                <label htmlFor='file'>
+                   Image: 
+                </label>
+                <input type="file" id='file' style={{display: "none"}} />
             </div>
             <button className="newUserButton">Create</button>
         </form>
